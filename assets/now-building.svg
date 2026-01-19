@@ -23,7 +23,7 @@
     </style>
   </defs>
 
-  <rect width="1201200" height="180" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="180" rx="18" fill="url(#bg)"/>
   <rect x="10" y="10" width="1180" height="160" rx="14" fill="none" stroke="#E0115F" stroke-width="4"/>
 
   <text x="40" y="55" fill="#ffffff" class="h">NOW BUILDING</text>
