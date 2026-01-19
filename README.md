@@ -58,7 +58,7 @@ I build practical software, take stubborn binaries apart, and occasionally do th
 
 **Based in the former Soviet Union.**
 
-<img src="https://raw.githubusercontent.com/Glitxhhh/Glitxhhh/main/assets/soviet-flag.gif" alt="Soviet Union flag" width="1200" />
+<img src="https://raw.githubusercontent.com/Glitxhhh/Glitxhhh/main/assets/soviet_flag_animated.gif" alt="Soviet Union flag" width="1200" />
 
 </div>
 

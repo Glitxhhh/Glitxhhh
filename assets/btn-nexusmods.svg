@@ -1,11 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="210" height="44" viewBox="0 0 210 44">
-  <rect x="1.5" y="1.5" width="207" height="41" fill="#E0115F" stroke="#0b0b0b" stroke-width="3"/>
-  <g fill="#0b0b0b">
-    <path d="M24 12c6 0 10 3 10 8v4c0 7-6 12-10 14-4-2-10-7-10-14v-4c0-5 4-8 10-8z" opacity="0.95"/>
-    <path d="M24 16c3 0 5 2 5 5v3c0 4-3 7-5 8-2-1-5-4-5-8v-3c0-3 2-5 5-5z" fill="#E0115F"/>
-  </g>
-  <text x="52" y="28" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial"
-        font-size="16" font-weight="800" fill="#0b0b0b" letter-spacing="1">
+<svg xmlns="http://www.w3.org/2000/svg" width="230" height="44" viewBox="0 0 230 44">
+  <rect x="1.5" y="1.5" width="227" height="41" fill="#E0115F" stroke="#0b0b0b" stroke-width="3"/>
+  <image href="logo-nexusmods.png" x="12" y="7" width="30" height="30" preserveAspectRatio="xMidYMid meet"/>
+  <text x="54" y="28" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial"
+        font-size="16" font-weight="900" fill="#0b0b0b" letter-spacing="1">
     NEXUSMODS
   </text>
 </svg>
