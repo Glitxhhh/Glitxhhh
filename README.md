@@ -23,12 +23,12 @@
 
 <br/><br/>
 
-<!-- 🔗 Buttons row (like the original) -->
+<!-- 🔗 Buttons row -->
 <a href="https://discord.gg/FQ2ZYKgpgq">
-  <img src="https://img.shields.io/badge/Discord-Join-ccb7ff?style=for-the-badge&logo=discord&logoColor=1a1a1a" />
+  <img src="https://img.shields.io/badge/Discord-Join-E0115F?style=for-the-badge&logo=discord&logoColor=white" />
 </a>
 <a href="https://ko-fi.com/glitxh">
-  <img src="https://img.shields.io/badge/Ko--fi-Support-ccb7ff?style=for-the-badge&logo=kofi&logoColor=1a1a1a" />
+  <img src="https://img.shields.io/badge/Ko--fi-Support-E0115F?style=for-the-badge&logo=kofi&logoColor=white" />
 </a>
 <a href="https://www.nexusmods.com/profile/Glitxhh">
   <img src="https://raw.githubusercontent.com/Glitxhhh/Glitxhhh/main/assets/btn-nexusmods.svg" height="28" alt="NexusMods" />
@@ -37,7 +37,7 @@
   <img src="https://raw.githubusercontent.com/Glitxhhh/Glitxhhh/main/assets/btn-gamebanana.svg" height="28" alt="GameBanana" />
 </a>
 <a href="https://linkin.bio/glitxh/">
-  <img src="https://img.shields.io/badge/MORE%20PROJECTS-linkin.bio-ccb7ff?style=for-the-badge&logo=linktree&logoColor=1a1a1a" />
+  <img src="https://img.shields.io/badge/MORE%20PROJECTS-linkin.bio-E0115F?style=for-the-badge&logo=linktree&logoColor=white" />
 </a>
 
 <br/>
@@ -52,18 +52,25 @@
 
 ## 🧩 About Me
 
-Software & Game Developer • Reverse Engineering • Systems Tooling
+🧠 Software & Game Developer • 🔍 Reverse Engineering • 🛠️ Systems Tooling
 
-I build practical software, take stubborn binaries apart, and occasionally do the boldest thing possible: sleep.
+I build practical software, take stubborn binaries apart, and occasionally do the boldest thing possible: 😴 sleep.
 
 **Based in the former Soviet Union.**
 
-<img src="https://raw.githubusercontent.com/Glitxhhh/Glitxhhh/main/assets/soviet-flag.svg"
-     alt="Soviet Union flag"
-     style="margin-top:8px;" />
+<img src="https://raw.githubusercontent.com/Glitxhhh/Glitxhhh/main/assets/soviet-flag.svg" alt="Soviet Union flag" width="420" />
 
 </div>
 
+---
+
+<div align="center">
+
+## 🧱 Now Building
+
+<img src="https://raw.githubusercontent.com/Glitxhhh/Glitxhhh/main/assets/now-building.svg" width="100%" alt="Now Building"/>
+
+</div>
 
 ---
 
@@ -76,7 +83,7 @@ I build practical software, take stubborn binaries apart, and occasionally do th
 - 🗂️ **Empress NFO Archive** — maintaining and curating an updated archive with long-term organization and usability in mind:  
   https://empressvoicesnfo.github.io/
 
-- 🧠 **Denuvo Vortex (C++)** — researching Denuvo internals, retooling Denuvo token tools in C++, and adding improvements.
+- 🧠 **Denuvo Vortex (C++)** — researching Denuvo internals, retooling Denuvo token tools in C++ and adding improvements.
 
 - 🛠️ **Hytale Tools** — building and maintaining tooling for Hytale-related workflows and modding ecosystems.
 
@@ -84,11 +91,33 @@ I build practical software, take stubborn binaries apart, and occasionally do th
 
 <div align="center">
 
-## 📌 Pinned Projects
+## 🚀 Featured Releases
+
+<img src="https://img.shields.io/github/v/release/Glitxhhh/HytaleAvatarEditor?style=for-the-badge&color=E0115F&label=HytaleAvatarEditor" />
+<img src="https://img.shields.io/github/v/release/Glitxhhh/p3rpc.hermitrewrittencheatsheetpatch?style=for-the-badge&color=E0115F&label=p3rpc.cheatsheetpatch" />
+<img src="https://img.shields.io/github/v/release/Glitxhhh/persona5proto.github.io?style=for-the-badge&color=E0115F&label=persona5proto" />
 
 </div>
 
+---
+
 <div align="center">
+
+## 🧠 Philosophy
+
+<blockquote>
+  <b>Reverse engineering is not about breaking things.</b><br/>
+  It is about building accurate mental models, writing tooling that respects reality,<br/>
+  and shipping improvements that hold up under pressure — not just in ideal demos.
+</blockquote>
+
+</div>
+
+---
+
+<div align="center">
+
+## 📌 Pinned Projects
 
 <a href="https://github.com/Glitxhhh/HytaleAvatarEditor">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=HytaleAvatarEditor&hide_border=true" />
@@ -127,7 +156,7 @@ I build practical software, take stubborn binaries apart, and occasionally do th
 
 <!-- Moved here per request -->
 <a href="https://discord.com/users/212243828831289344">
-  <img src="https://img.shields.io/badge/Discord-Add%20me!-ccb7ff?style=for-the-badge&logo=discord&logoColor=1a1a1a" />
+  <img src="https://img.shields.io/badge/Discord-Add%20me!-E0115F?style=for-the-badge&logo=discord&logoColor=white" />
 </a>
 
 </div>
