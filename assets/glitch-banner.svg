@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070d"/>
+      <stop offset="0.55" stop-color="#0b1030"/>
+      <stop offset="1" stop-color="#0a0614"/>
+    </linearGradient>
+
+    <filter id="glitch">
+      <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="2" seed="2" result="noise">
+        <animate attributeName="seed" dur="1.2s" values="1;3;6;9;2;8;4" repeatCount="indefinite"/>
+        <animate attributeName="baseFrequency" dur="1.1s" values="0.012;0.02;0.009;0.018;0.012" repeatCount="indefinite"/>
+      </feTurbulence>
+
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="18" xChannelSelector="R" yChannelSelector="G" result="displaced">
+        <animate attributeName="scale" dur="1.0s" values="10;24;12;28;14;22;10" repeatCount="indefinite"/>
+      </feDisplacementMap>
+
+      <feColorMatrix in="displaced" type="matrix"
+        values="1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 1 0" result="base"/>
+
+      <!-- RGB split -->
+      <feOffset in="base" dx="-6" dy="0" result="r">
+        <animate attributeName="dx" dur="0.9s" values="-2;-8;-3;-10;-2" repeatCount="indefinite"/>
+      </feOffset>
+      <feOffset in="base" dx="6" dy="0" result="b">
+        <animate attributeName="dx" dur="0.9s" values="2;10;3;8;2" repeatCount="indefinite"/>
+      </feOffset>
+
+      <feColorMatrix in="r" type="matrix"
+        values="1 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0.95 0" result="r2"/>
+
+      <feColorMatrix in="b" type="matrix"
+        values="0 0 0 0 0
+                0 0 0 0 0
+                0 0 1 0 0
+                0 0 0 0.95 0" result="b2"/>
+
+      <feMerge>
+        <feMergeNode in="r2"/>
+        <feMergeNode in="base"/>
+        <feMergeNode in="b2"/>
+      </feMerge>
+    </filter>
+
+    <filter id="scanlines">
+      <feTurbulence type="turbulence" baseFrequency="0.8" numOctaves="1" seed="1" result="t"/>
+      <feColorMatrix in="t" type="matrix"
+        values="0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0.16 0" result="a"/>
+      <feComposite in="a" in2="SourceGraphic" operator="in"/>
+    </filter>
+
+    <style>
+      .title { font: 800 72px/1.0 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial; letter-spacing: 2px; }
+      .sub   { font: 500 22px/1.2 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial; opacity: 0.9; }
+      .mono  { font: 600 14px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; opacity: 0.85; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="260" fill="url(#bg)"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.10">
+    <path d="M0 40H1200M0 80H1200M0 120H1200M0 160H1200M0 200H1200M0 240H1200" stroke="#8a5cff"/>
+    <path d="M60 0V260M120 0V260M180 0V260M240 0V260M300 0V260M360 0V260M420 0V260M480 0V260M540 0V260M600 0V260M660 0V260M720 0V260M780 0V260M840 0V260M900 0V260M960 0V260M1020 0V260M1080 0V260M1140 0V260" stroke="#2ae8ff"/>
+  </g>
+
+  <!-- Banner copy -->
+  <g filter="url(#glitch)">
+    <text x="70" y="120" fill="#ffffff" class="title">GLITXH</text>
+    <text x="70" y="160" fill="#cdb7ff" class="sub">Software &amp; Game Developer • Reverse Engineering • Systems Tooling</text>
+    <text x="70" y="205" fill="#a8ffcc" class="mono">STATUS: BUILDING TOOLS • ARCHIVING • OCCASIONAL SLEEP</text>
+  </g>
+
+  <!-- Scanlines overlay -->
+  <rect width="1200" height="260" fill="#ffffff" filter="url(#scanlines)" opacity="0.14"/>
+
+  <!-- Flicker blocks -->
+  <g opacity="0.65">
+    <rect x="820" y="52" width="320" height="10" fill="#2ae8ff">
+      <animate attributeName="opacity" dur="0.8s" values="0.1;0.7;0.2;0.9;0.1" repeatCount="indefinite"/>
+    </rect>
+    <rect x="890" y="86" width="250" height="8" fill="#ff3bb8">
+      <animate attributeName="opacity" dur="1.1s" values="0.05;0.6;0.15;0.8;0.05" repeatCount="indefinite"/>
+    </rect>
+    <rect x="860" y="206" width="280" height="6" fill="#a8ffcc">
+      <animate attributeName="opacity" dur="0.95s" values="0.05;0.5;0.12;0.75;0.05" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

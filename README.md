@@ -1,21 +1,28 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=220&section=header&text=GLITXH&fontSize=64&desc=Software%20%26%20Game%20Developer&animation=twinkling" width="100%"/>
+<img src="https://raw.githubusercontent.com/Glitxhhh/Glitxhhh/main/assets/glitch-banner.svg" width="100%" alt="Glitxh glitch banner" />
 
-<br/>
+<br/><br/>
 
-# Glitxh
+<!-- Language buttons (styled like your screenshot) -->
+<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
+<img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 
-**Software & Game Developer • Reverse Engineering • Systems Tooling**
+<br/><br/>
 
+<!-- Link buttons (styled like your screenshot) -->
 <a href="https://discord.gg/FQ2ZYKgpgq">
-  <img src="https://img.shields.io/badge/Discord-Join_Server-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
+  <img src="https://img.shields.io/badge/Discord-Join-ccb7ff?style=for-the-badge&logo=discord&logoColor=1a1a1a" />
 </a>
-<a href="mailto:glitxhsenpai@gmail.com">
-  <img src="https://img.shields.io/badge/Email-glitxhsenpai%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+<a href="https://ko-fi.com/glitxh">
+  <img src="https://img.shields.io/badge/Ko--fi-Support-ccb7ff?style=for-the-badge&logo=kofi&logoColor=1a1a1a" />
 </a>
-<a href="https://linkin.bio/glitxh/">
-  <img src="https://img.shields.io/badge/Links-linkin.bio%2Fglitxh-111111?style=for-the-badge&logo=linktree&logoColor=white" />
+<a href="https://www.nexusmods.com/users/myaccount?tab=profile">
+  <img src="https://img.shields.io/badge/NexusMods-Profile-ccb7ff?style=for-the-badge&logo=nexusmods&logoColor=1a1a1a" />
 </a>
 
 <br/>
@@ -28,47 +35,58 @@
 
 ## About Me
 
-I am a software and game developer with a strong focus on systems programming, tooling, and reverse engineering.  
-My work sits at the intersection of low-level analysis and practical software engineering.
+Software and game developer focused on systems programming, tooling, and reverse engineering.
+I build practical software, tear apart stubborn binaries, and maintain enough discipline to sleep occasionally.
 
-Based in the former Soviet Union, I spend most of my time breaking things apart so I can build better tools around them — when I am not in a strategic state of scheduled unconsciousness (also known as sleeping).
-
----
-
-## Current Work
-
-**Empress NFO Archive — Maintainer**  
-Managing and curating the updated Empress NFO archive, ensuring accuracy, organization, and long-term usability.
-
-**Denuvo Vortex Tooling — C++ Development**  
-Designing and implementing new Denuvo-related research tools in modern C++ with an emphasis on performance, reliability, and maintainability.
-
-Both projects require deep technical understanding, patience, and an appreciation for extremely stubborn software.
+Based in the former Soviet Union (time zones and historical accuracy not guaranteed).
 
 ---
 
-## Technical Stack
+## Current Focus
+
+- **Empress NFO Archive** — maintaining and curating an updated archive with long-term organization and usability in mind.
+- **Denuvo Vortex (C++)** — building new Denuvo-related research tools with performance, correctness, and clean architecture as priorities.
+
+---
+
+## Skills Radar
+
+<div align="center">
+  <img
+    alt="Skills radar chart"
+    src="https://quickchart.io/chart?c=%7B%22type%22%3A%22radar%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22C%2B%2B%22%2C%22C%23%22%2C%22Reverse%20Engineering%22%2C%22Tooling%22%2C%22Game%20Dev%22%2C%22Scripting%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22Glitxh%20skill%20profile%22%2C%22data%22%3A%5B92%2C86%2C88%2C90%2C78%2C84%5D%7D%5D%7D%2C%22options%22%3A%7B%22plugins%22%3A%7B%22legend%22%3A%7B%22display%22%3Afalse%7D%7D%2C%22scales%22%3A%7B%22r%22%3A%7B%22suggestedMin%22%3A0%2C%22suggestedMax%22%3A100%2C%22ticks%22%3A%7B%22display%22%3Afalse%7D%7D%7D%7D%7D"
+  />
+</div>
+
+---
+
+## Tech Stack
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=cpp,cs,c,ruby,python,js,java,html,php,lua,asm,godot&perline=6" />
 </div>
 
-Languages I work with regularly:
-
-C++, C#, C, Ruby, Python, JavaScript, Java, HTML, PHP, Lua, Assembly, GDScript.
-
 ---
 
-## Pinned Projects
+## Pinned Projects (Repo Cards)
 
-**Empress NFO Archive**  
-Ongoing archival and curation effort for preservation and usability of NFO metadata.
+<div align="center">
 
-**Denuvo Vortex Toolkit (C++)**  
-A research-focused toolset for interacting with modern Denuvo systems.  
-(Work in progress — architecture and components evolving.)
+<a href="https://github.com/Glitxhhh/HytaleAvatarEditor">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=HytaleAvatarEditor&hide_border=true" />
+</a>
+<a href="https://github.com/Glitxhhh/p3rpc.hermitrewrittencheatsheetpatch">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=p3rpc.hermitrewrittencheatsheetpatch&hide_border=true" />
+</a>
 
-If you would like, I can replace these with actual repository cards once you provide the exact repo names.
+<a href="https://github.com/Glitxhhh/persona5proto.github.io">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=persona5proto.github.io&hide_border=true" />
+</a>
+<a href="https://github.com/Glitxhhh/Glitxhhh">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=Glitxhhh&hide_border=true" />
+</a>
+
+</div>
 
 ---
 
@@ -90,6 +108,7 @@ If you would like, I can replace these with actual repository cards once you pro
 ## Connect
 
 - Discord: https://discord.gg/FQ2ZYKgpgq  
+- Ko-fi: https://ko-fi.com/glitxh  
 - Email: glitxhsenpai@gmail.com  
 - Links: https://linkin.bio/glitxh/
 
@@ -98,6 +117,6 @@ If you would like, I can replace these with actual repository cards once you pro
 <div align="center">
 
 If you are here for tooling, reverse engineering, or low-level systems work — welcome.  
-If you are here to determine whether I truly sleep — results remain inconclusive.
+If you are here to determine whether I truly sleep — the evidence remains inconclusive.
 
 </div>
