@@ -60,7 +60,7 @@ I build practical software, take stubborn binaries apart, and occasionally do th
 
 <img src="https://raw.githubusercontent.com/Glitxhhh/Glitxhhh/main/assets/soviet-flag.svg"
      alt="Soviet Union flag"
-     style="margin-top:8px;" />
+     style="margin-top:40px;" />
 
 </div>
 
