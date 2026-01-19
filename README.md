@@ -4,25 +4,40 @@
 
 <br/><br/>
 
-<!-- Language buttons (styled like your screenshot) -->
+<!-- Languages (your actual stack) -->
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
 <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
-<img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
+<img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=000000" />
+<img src="https://img.shields.io/badge/Assembly-000000?style=for-the-badge&logo=gnubash&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" />
+
+<br/>
+
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=000000" />
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+<img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" />
+<img src="https://img.shields.io/badge/GDScript-478CBF?style=for-the-badge&logo=godotengine&logoColor=white" />
 
 <br/><br/>
 
-<!-- Link buttons (styled like your screenshot) -->
+<!-- Buttons row (styled like your screenshot) -->
+<a href="https://discord.com/users/212243828831289344">
+  <img src="https://img.shields.io/badge/Discord-Add%20me!-ccb7ff?style=for-the-badge&logo=discord&logoColor=1a1a1a" />
+</a>
 <a href="https://discord.gg/FQ2ZYKgpgq">
   <img src="https://img.shields.io/badge/Discord-Join-ccb7ff?style=for-the-badge&logo=discord&logoColor=1a1a1a" />
 </a>
 <a href="https://ko-fi.com/glitxh">
   <img src="https://img.shields.io/badge/Ko--fi-Support-ccb7ff?style=for-the-badge&logo=kofi&logoColor=1a1a1a" />
 </a>
-<a href="https://www.nexusmods.com/users/myaccount?tab=profile">
+<a href="https://www.nexusmods.com/profile/Glitxhh">
   <img src="https://img.shields.io/badge/NexusMods-Profile-ccb7ff?style=for-the-badge&logo=nexusmods&logoColor=1a1a1a" />
+</a>
+<a href="https://gamebanana.com/members/2590202">
+  <img src="https://img.shields.io/badge/GameBanana-Profile-ccb7ff?style=for-the-badge&logo=applearcade&logoColor=1a1a1a" />
 </a>
 
 <br/>
@@ -35,8 +50,8 @@
 
 ## About Me
 
-Software and game developer focused on systems programming, tooling, and reverse engineering.
-I build practical software, tear apart stubborn binaries, and maintain enough discipline to sleep occasionally.
+Software and game developer focused on systems programming, tooling, and reverse engineering.  
+I build practical software, take stubborn binaries apart, and occasionally do the boldest thing possible: sleep.
 
 Based in the former Soviet Union (time zones and historical accuracy not guaranteed).
 
@@ -68,7 +83,7 @@ Based in the former Soviet Union (time zones and historical accuracy not guarant
 
 ---
 
-## Pinned Projects (Repo Cards)
+## Pinned Projects
 
 <div align="center">
 
@@ -100,23 +115,5 @@ Based in the former Soviet Union (time zones and historical accuracy not guarant
 <br/>
 
 <img src="https://github-profile-trophy.vercel.app/?username=Glitxhhh&no-frame=true&row=1&column=7" />
-
-</div>
-
----
-
-## Connect
-
-- Discord: https://discord.gg/FQ2ZYKgpgq  
-- Ko-fi: https://ko-fi.com/glitxh  
-- Email: glitxhsenpai@gmail.com  
-- Links: https://linkin.bio/glitxh/
-
----
-
-<div align="center">
-
-If you are here for tooling, reverse engineering, or low-level systems work — welcome.  
-If you are here to determine whether I truly sleep — the evidence remains inconclusive.
 
 </div>
