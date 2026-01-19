@@ -61,6 +61,9 @@
 I build practical software, take stubborn binaries apart, and occasionally do the boldest thing possible: sleep.
 <br/>
 Based in the former Soviet Union (time zones and historical accuracy not guaranteed).
+
+  <img width="330" height="165" alt="image" src="https://github.com/user-attachments/assets/2d78aad7-e00a-406a-875d-33664259bc97" />
+
 </div>
 
 ---
