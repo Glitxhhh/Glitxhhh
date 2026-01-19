@@ -52,19 +52,18 @@
 
 ## 🧩 About Me
 
-<img src="https://raw.githubusercontent.com/Glitxhhh/Glitxhhh/main/assets/soviet-flag.svg" height="18" alt="Soviet Union flag" />
-&nbsp; Software & Game Developer • Reverse Engineering • Systems Tooling
+Software & Game Developer • Reverse Engineering • Systems Tooling
 
-</div>
-
-<div align="center">
 I build practical software, take stubborn binaries apart, and occasionally do the boldest thing possible: sleep.
-<br/>
-Based in the former Soviet Union (time zones and historical accuracy not guaranteed).
 
-  <img width="330" height="165" alt="image" src="https://github.com/user-attachments/assets/2d78aad7-e00a-406a-875d-33664259bc97" />
+**Based in the former Soviet Union.**
+
+<img src="https://raw.githubusercontent.com/Glitxhhh/Glitxhhh/main/assets/soviet-flag.svg"
+     alt="Soviet Union flag"
+     style="margin-top:8px;" />
 
 </div>
+
 
 ---
 
