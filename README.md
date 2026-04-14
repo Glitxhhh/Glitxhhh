@@ -75,7 +75,7 @@ I build practical software, take stubborn binaries apart, and ship tooling that 
 - **Mirai for The Vortex** — building out a stronger Discord bot and server utility stack.
 - **Steam Ticket Generator GUI** — pushing toward a cleaner and more usable desktop workflow.
 - **Ubisoft / EA GUI Tools** — planning the next phase of GUI-based tooling.
-- **Empress NFO Archive** — maintaining and curating a long-term archive with better organization and usability: https://empressvoicesnfo.github.io/
+- **Empress NFO Archive** — maintaining and curating a long-term archive with better organization and usability: https://voicesnfo.github.io/
 - **Hytale Tools** — continuing work on tooling for Hytale-related workflows and modding ecosystems.
 
 ---
