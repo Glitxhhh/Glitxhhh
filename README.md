@@ -5,30 +5,21 @@
 <br>
 
 <p align="center">
-  <a href="https://glitxh.tech">
-    <img alt="glitxh.tech" src="https://img.shields.io/badge/GLITXH.TECH-2f3136?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=6a6f79&color=E0115F">
-  </a>
-  <a href="https://discord.gg/FQ2ZYKgpgq">
-    <img alt="Discord" src="https://img.shields.io/badge/DISCORD-2f3136?style=for-the-badge&logo=discord&logoColor=white&labelColor=6a6f79&color=E0115F">
-  </a>
-  <a href="https://x.com/glitxhhh">
-    <img alt="X" src="https://img.shields.io/badge/X-2f3136?style=for-the-badge&logo=x&logoColor=white&labelColor=6a6f79&color=E0115F">
-  </a>
-  <a href="https://www.youtube.com/@glitxhhh">
-    <img alt="YouTube" src="https://img.shields.io/badge/YOUTUBE-2f3136?style=for-the-badge&logo=youtube&logoColor=white&labelColor=6a6f79&color=E0115F">
-  </a>
-  <a href="https://www.twitch.tv/glitxhwastaken">
-    <img alt="Twitch" src="https://img.shields.io/badge/TWITCH-2f3136?style=for-the-badge&logo=twitch&logoColor=white&labelColor=6a6f79&color=E0115F">
-  </a>
-  <a href="https://www.nexusmods.com/profile/Glitxhh">
-    <img alt="NexusMods" src="https://img.shields.io/badge/NEXUSMODS-2f3136?style=for-the-badge&logoColor=white&labelColor=6a6f79&color=E0115F">
-  </a>
-  <a href="https://gamebanana.com/members/2590202">
-    <img alt="GameBanana" src="https://img.shields.io/badge/GAMEBANANA-2f3136?style=for-the-badge&logoColor=white&labelColor=6a6f79&color=E0115F">
-  </a>
-  <a href="https://linkin.bio/glitxh">
-    <img alt="Linkin.bio" src="https://img.shields.io/badge/LINKIN.BIO-2f3136?style=for-the-badge&logoColor=white&labelColor=6a6f79&color=E0115F">
-  </a>
+  <a href="https://glitxh.tech"><img alt="GLITXH.TECH" src="./assets/badges/glitxh-tech.svg"></a>
+  <a href="https://discord.gg/FQ2ZYKgpgq"><img alt="Discord" src="./assets/badges/discord.svg"></a>
+  <a href="https://x.com/glitxhhh"><img alt="X" src="./assets/badges/x.svg"></a>
+  <a href="https://www.youtube.com/@glitxhhh"><img alt="YouTube" src="./assets/badges/youtube.svg"></a>
+  <a href="https://www.twitch.tv/glitxhwastaken"><img alt="Twitch" src="./assets/badges/twitch.svg"></a>
+  <a href="https://www.nexusmods.com/profile/Glitxhh"><img alt="NexusMods" src="./assets/badges/nexusmods.svg"></a>
+  <a href="https://gamebanana.com/members/2590202"><img alt="GameBanana" src="./assets/badges/gamebanana.svg"></a>
+  <a href="https://linkin.bio/glitxh"><img alt="Linkin.bio" src="./assets/badges/linkin-bio.svg"></a>
+</p>
+
+<p align="center">
+  <img alt="Followers" src="https://img.shields.io/github/followers/Glitxhhh?style=flat&logo=github&labelColor=2f3136&color=E0115F">
+  <img alt="Wand-Enhancer stars" src="https://img.shields.io/github/stars/Glitxhhh/Wand-Enhancer?style=flat&logo=github&labelColor=2f3136&color=E0115F">
+  <img alt="Wand-Enhancer forks" src="https://img.shields.io/github/forks/Glitxhhh/Wand-Enhancer?style=flat&logo=github&labelColor=2f3136&color=E0115F">
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/Glitxhhh/Wand-Enhancer?style=flat&logo=github&labelColor=2f3136&color=E0115F">
 </p>
 
 ![](https://komarev.com/ghpvc/?color=brightgreen&style=flat-square&username=Glitxhhh)
@@ -118,28 +109,26 @@ My workflow has shifted from doing everything by hand to **AI-assisted reverse e
 ## Tech Stack
 
 <p align="center">
-
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white&style=for-the-badge)
-![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white&style=for-the-badge)
-![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=000000&style=for-the-badge)
-![Assembly](https://img.shields.io/badge/Assembly-000000?logo=gnubash&logoColor=white&style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)
-![Ruby](https://img.shields.io/badge/Ruby-CC342D?logo=ruby&logoColor=white&style=for-the-badge)  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000000&style=for-the-badge)
-![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=000000&style=for-the-badge)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)
-![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white&style=for-the-badge)
-![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white&style=for-the-badge)
-![WPF](https://img.shields.io/badge/WPF-512BD4?logo=dotnet&logoColor=white&style=for-the-badge)
-![Avalonia](https://img.shields.io/badge/Avalonia-8B44AC?style=for-the-badge)
-![Qt](https://img.shields.io/badge/Qt-41CD52?logo=qt&logoColor=white&style=for-the-badge)
-![Lua](https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=white&style=for-the-badge)
-![GDScript](https://img.shields.io/badge/GDScript-478CBF?logo=godotengine&logoColor=white&style=for-the-badge)
-![Ghidra](https://img.shields.io/badge/Ghidra-NSA-E0115F?style=for-the-badge)
-![IDA Pro](https://img.shields.io/badge/IDA%20Pro-Hex--Rays-1E5AA8?style=for-the-badge)
-![Linux](https://img.shields.io/badge/CachyOS-Linux-1793D1?logo=archlinux&logoColor=white&style=for-the-badge)
-![Windows](https://img.shields.io/badge/Windows-0078D4?logo=windows&logoColor=white&style=for-the-badge)
-
+  <img alt="C++" src="./assets/badges/cpp.svg">
+  <img alt="C#" src="./assets/badges/csharp.svg">
+  <img alt="C" src="./assets/badges/c.svg">
+  <img alt="Assembly" src="./assets/badges/assembly.svg">
+  <img alt="Python" src="./assets/badges/python.svg">
+  <img alt="Ruby" src="./assets/badges/ruby.svg">
+  <img alt="JavaScript" src="./assets/badges/javascript.svg">
+  <img alt="Java" src="./assets/badges/java.svg">
+  <img alt="HTML5" src="./assets/badges/html5.svg">
+  <img alt="PHP" src="./assets/badges/php.svg">
+  <img alt="Rust" src="./assets/badges/rust.svg">
+  <img alt="WPF" src="./assets/badges/wpf.svg">
+  <img alt="Avalonia" src="./assets/badges/avalonia.svg">
+  <img alt="Qt" src="./assets/badges/qt.svg">
+  <img alt="Lua" src="./assets/badges/lua.svg">
+  <img alt="GDScript" src="./assets/badges/gdscript.svg">
+  <img alt="Ghidra" src="./assets/badges/ghidra.svg">
+  <img alt="IDA Pro" src="./assets/badges/ida-pro.svg">
+  <img alt="CachyOS" src="./assets/badges/cachyos.svg">
+  <img alt="Windows" src="./assets/badges/windows.svg">
 </p>
 
 ---
