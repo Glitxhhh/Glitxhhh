@@ -78,7 +78,8 @@
   <g filter="url(#glitch)">
     <text x="70" y="120" fill="#ffffff" class="title">GLITXH</text>
     <text x="70" y="160" fill="#cdb7ff" class="sub">Software &amp; Game Developer • Reverse Engineering • Systems Tooling</text>
-    <text x="70" y="205" fill="#a8ffcc" class="mono">STATUS: BUILDING TOOLS • ARCHIVING • OCCASIONAL SLEEP</text>
+    <text x="70" y="205" fill="#a8ffcc" class="mono">STATUS: BUILDING TOOLS • BREAKING BINARIES • OCCASIONAL SLEEP</text>
+    <text x="70" y="236" fill="#2ae8ff" class="mono">&gt; GLITXH.TECH</text>
   </g>
 
   <!-- Scanlines overlay -->
