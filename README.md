@@ -190,7 +190,7 @@ The Ethereum address is the same wallet on Linea, Base, BNB Chain, Polygon, Opti
 </p>
 
 <p align="center">
-  <img alt="GitHub trophies" src="https://github-profile-trophy.vercel.app/?column=7&no-frame=true&row=1&username=Glitxhhh&theme=onestar">
+  <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Glitxhhh&layout=compact&hide_border=true&title_color=E0115F&text_color=c9d1d9&bg_color=0d1117">
 </p>
 
 ---
