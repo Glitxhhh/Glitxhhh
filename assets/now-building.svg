@@ -27,9 +27,9 @@
   <rect x="10" y="10" width="1180" height="190" rx="14" fill="none" stroke="#E0115F" stroke-width="4"/>
 
   <text x="40" y="55" fill="#ffffff" class="h">NOW BUILDING</text>
-  <text x="40" y="95" fill="#ffffff" class="t">• Empress NFO Archive — curation, structure, long-term preservation</text>
-  <text x="40" y="122" fill="#ffffff" class="t">• Denuvo Vortex (C++) — researching internals, retooling token tools, improvements</text>
-  <text x="40" y="149" fill="#ffffff" class="t">• Hytale Tools — tooling for workflows, editor utilities, modding ecosystem support</text>
+  <text x="40" y="95" fill="#ffffff" class="t">• Wand-Enhancer — maintaining the community continuation, remote panel, scripts</text>
+  <text x="40" y="122" fill="#ffffff" class="t">• YipYip-Recomp — static recompilation of Avatar: The Last Airbender (PS2) to C++</text>
+  <text x="40" y="149" fill="#ffffff" class="t">• TTGames Lego Mod Manager — mods for Nu2 / NXG / NTT engine LEGO games</text>
 
   <g filter="url(#flicker)">
     <rect x="830" y="40" width="320" height="8" fill="#E0115F" opacity="0.25">
