@@ -64,7 +64,8 @@ I build practical software, take stubborn binaries apart, and ship tooling that 
 My workflow has shifted from doing everything by hand to **tool-driven reverse engineering and development**:
 
 - **MCP-driven RE** — Ghidra, x64dbg and IDA Pro all wired into one scriptable workflow through MCP servers ([ghidra-mcp](https://github.com/Glitxhhh/ghidra-mcp), [x64dbgMCP](https://github.com/Glitxhhh/x64dbgMCP), [IDAssistMCP](https://github.com/Glitxhhh/IDAssistMCP)), so analysis, renaming and batch operations happen in seconds instead of hours.
-- **Linux-first desktop** — daily driving CachyOS, building native Qt6/C++ and Avalonia tools that work on Wayland instead of being Windows-only.
+- **Dual-OS setup** — CachyOS and Windows 11 side by side, tied together with Deskflow (KVM), VAIO audio and ClipCascade for clipboard sync, so I can move between both without thinking about it.
+- **Cross-platform tools** — native Qt6/C++ and Avalonia apps that run on Windows and Linux, Wayland included, instead of being Windows-only.
 - **Ship, then iterate** — small public repos from day one so progress is visible, even when there's no demo yet.
 
 ---
