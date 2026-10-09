@@ -18,8 +18,12 @@
 <p align="center">
   <img alt="Followers" src="https://img.shields.io/github/followers/Glitxhhh?style=flat&logo=github&labelColor=2f3136&color=E0115F">
   <img alt="Wand-Enhancer stars" src="https://img.shields.io/github/stars/Glitxhhh/Wand-Enhancer?style=flat&logo=github&labelColor=2f3136&color=E0115F">
-  <img alt="Wand-Enhancer forks" src="https://img.shields.io/github/forks/Glitxhhh/Wand-Enhancer?style=flat&logo=github&labelColor=2f3136&color=E0115F">
+  <img alt="Wand-Enhancer downloads" src="https://img.shields.io/github/downloads/Glitxhhh/Wand-Enhancer/total?style=flat&logo=github&labelColor=2f3136&color=E0115F">
   <img alt="Last commit" src="https://img.shields.io/github/last-commit/Glitxhhh/Wand-Enhancer?style=flat&logo=github&labelColor=2f3136&color=E0115F">
+</p>
+
+<p align="center">
+  <a href="https://ko-fi.com/glitxh"><img alt="Support on Ko-fi" src="./assets/badges/kofi.svg"></a>
 </p>
 
 ![](https://komarev.com/ghpvc/?color=brightgreen&style=flat-square&username=Glitxhhh)
@@ -71,7 +75,7 @@ My workflow has shifted from doing everything by hand to **AI-assisted reverse e
 | --- | --- |
 | [**Wand-Enhancer**](https://github.com/Glitxhhh/Wand-Enhancer) | Advanced UX and interoperability extension for the Wand (WeMod) app. |
 | [**SRCWUnlocker**](https://github.com/Glitxhhh/SRCWUnlocker) | Lightweight DLL-based unlocker for Sonic Racing CrossWorlds. |
-| [**DepotDumperGUI**](https://github.com/Glitxhhh/DepotDumperGUI) | Mass depot key dumper built on SteamKit2, with a GUI. |
+| [**DepotDumperGUI**](https://github.com/Glitxhhh/DepotDumperGUI) | GUI-first fork of DepotDumper: mass depot key dumping built on SteamKit2, with a full desktop interface. |
 | [**CachyAutoClicker**](https://github.com/Glitxhhh/CachyAutoClicker) | Native C++/Qt6 auto-clicker for Wayland using `uinput`. |
 | [**HytaleAvatarEditor**](https://github.com/Glitxhhh/HytaleAvatarEditor) | Edit Hytale avatar params while offline. |
 | [**p3rpc.hermitrewrittencheatsheetpatch**](https://github.com/Glitxhhh/p3rpc.hermitrewrittencheatsheetpatch) | Persona 3 Reload cheat sheet patch — [GameBanana](https://gamebanana.com/mods/616284). |
@@ -129,6 +133,20 @@ My workflow has shifted from doing everything by hand to **AI-assisted reverse e
   <img alt="IDA Pro" src="./assets/badges/ida-pro.svg">
   <img alt="CachyOS" src="./assets/badges/cachyos.svg">
   <img alt="Windows" src="./assets/badges/windows.svg">
+</p>
+
+**Tools**
+
+<p align="center">
+  <img alt="x64dbg" src="./assets/badges/x64dbg.svg">
+  <img alt="Frida" src="./assets/badges/frida.svg">
+  <img alt="Binary Ninja" src="./assets/badges/binary-ninja.svg">
+  <img alt="Cheat Engine" src="./assets/badges/cheat-engine.svg">
+  <img alt="SteamKit2" src="./assets/badges/steamkit2.svg">
+  <img alt=".NET 10" src="./assets/badges/dotnet.svg">
+  <img alt="Git" src="./assets/badges/git.svg">
+  <img alt="Docker" src="./assets/badges/docker.svg">
+  <img alt="Arch Linux" src="./assets/badges/arch.svg">
 </p>
 
 ---
