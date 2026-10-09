@@ -4,25 +4,6 @@
 
 <br>
 
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white&style=for-the-badge)
-![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white&style=for-the-badge)
-![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=000000&style=for-the-badge)
-![Assembly](https://img.shields.io/badge/Assembly-000000?logo=gnubash&logoColor=white&style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)
-![Ruby](https://img.shields.io/badge/Ruby-CC342D?logo=ruby&logoColor=white&style=for-the-badge)  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000000&style=for-the-badge)
-![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=000000&style=for-the-badge)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)
-![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white&style=for-the-badge)
-![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white&style=for-the-badge)
-![Qt](https://img.shields.io/badge/Qt-41CD52?logo=qt&logoColor=white&style=for-the-badge)
-![Lua](https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=white&style=for-the-badge)
-![GDScript](https://img.shields.io/badge/GDScript-478CBF?logo=godotengine&logoColor=white&style=for-the-badge)
-![Ghidra](https://img.shields.io/badge/Ghidra-NSA-E0115F?style=for-the-badge)
-![IDA Pro](https://img.shields.io/badge/IDA%20Pro-Hex--Rays-1E5AA8?style=for-the-badge)
-![Linux](https://img.shields.io/badge/CachyOS-Linux-1793D1?logo=archlinux&logoColor=white&style=for-the-badge)
-![Windows](https://img.shields.io/badge/Windows-0078D4?logo=windows&logoColor=white&style=for-the-badge)
-
 <p align="center">
   <a href="https://glitxh.tech">
     <img alt="glitxh.tech" src="https://img.shields.io/badge/GLITXH.TECH-2f3136?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=6a6f79&color=E0115F">
@@ -131,6 +112,33 @@ My workflow has shifted from doing everything by hand to **AI-assisted reverse e
     <td width="50%"><a href="https://github.com/Glitxhhh/SRCWUnlocker"><img width="100%" alt="SRCWUnlocker" src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=SRCWUnlocker&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117"></a></td>
   </tr>
 </table>
+
+---
+
+## Tech Stack
+
+<p align="center">
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white&style=for-the-badge)
+![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white&style=for-the-badge)
+![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=000000&style=for-the-badge)
+![Assembly](https://img.shields.io/badge/Assembly-000000?logo=gnubash&logoColor=white&style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)
+![Ruby](https://img.shields.io/badge/Ruby-CC342D?logo=ruby&logoColor=white&style=for-the-badge)  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000000&style=for-the-badge)
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=000000&style=for-the-badge)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)
+![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white&style=for-the-badge)
+![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white&style=for-the-badge)
+![WPF](https://img.shields.io/badge/WPF-512BD4?logo=dotnet&logoColor=white&style=for-the-badge)
+![Avalonia](https://img.shields.io/badge/Avalonia-8B44AC?style=for-the-badge)
+![Qt](https://img.shields.io/badge/Qt-41CD52?logo=qt&logoColor=white&style=for-the-badge)
+![Lua](https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=white&style=for-the-badge)
+![GDScript](https://img.shields.io/badge/GDScript-478CBF?logo=godotengine&logoColor=white&style=for-the-badge)
+![Ghidra](https://img.shields.io/badge/Ghidra-NSA-E0115F?style=for-the-badge)
+![IDA Pro](https://img.shields.io/badge/IDA%20Pro-Hex--Rays-1E5AA8?style=for-the-badge)
+![Linux](https://img.shields.io/badge/CachyOS-Linux-1793D1?logo=archlinux&logoColor=white&style=for-the-badge)
+![Windows](https://img.shields.io/badge/Windows-0078D4?logo=windows&logoColor=white&style=for-the-badge)
+</p>
 
 ---
 
