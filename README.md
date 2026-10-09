@@ -118,6 +118,7 @@ My workflow has shifted from doing everything by hand to **AI-assisted reverse e
 ## Tech Stack
 
 <p align="center">
+
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white&style=for-the-badge)
 ![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white&style=for-the-badge)
 ![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=000000&style=for-the-badge)
@@ -138,6 +139,7 @@ My workflow has shifted from doing everything by hand to **AI-assisted reverse e
 ![IDA Pro](https://img.shields.io/badge/IDA%20Pro-Hex--Rays-1E5AA8?style=for-the-badge)
 ![Linux](https://img.shields.io/badge/CachyOS-Linux-1793D1?logo=archlinux&logoColor=white&style=for-the-badge)
 ![Windows](https://img.shields.io/badge/Windows-0078D4?logo=windows&logoColor=white&style=for-the-badge)
+
 </p>
 
 ---
