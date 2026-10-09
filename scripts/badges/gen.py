@@ -22,6 +22,13 @@ TECH = [
  ('ida-pro', 'IDA Pro', '1E5AA8', None), ('cachyos', 'CachyOS', '1793D1', 'cachyos'),
  ('windows', 'Windows', '0078D4', 'WINDOWS'),
 ]
+TOOLS = [
+ ('x64dbg', 'x64dbg', '2B6CB0', None), ('frida', 'Frida', 'C0392B', None), ('binary-ninja', 'Binary Ninja', '8E2430', None),
+ ('cheat-engine', 'Cheat Engine', '2F5D8A', None), ('steamkit2', 'SteamKit2', '1B2838', 'steam'),
+ ('dotnet', '.NET 10', '512BD4', None), ('git', 'Git', 'F05032', 'git'), ('docker', 'Docker', '2496ED', 'docker'),
+ ('arch', 'Arch Linux', '1793D1', 'archlinux'),
+ ('kofi', 'Support on Ko-fi', 'FF5E5B', 'kofi'),
+]
 LINKS = [
  ('glitxh-tech', 'GLITXH.TECH', 'googlechrome'), ('discord', 'DISCORD', 'discord'), ('x', 'X', 'x'),
  ('youtube', 'YOUTUBE', 'youtube'), ('twitch', 'TWITCH', 'twitch'), ('nexusmods', 'NEXUSMODS', None),
@@ -65,6 +72,8 @@ def badge(label, fill, fg, key, split=None):
 os.makedirs(OUT, exist_ok=True)
 for f, label, c, k in TECH:
     open(os.path.join(OUT, f + '.svg'), 'w', encoding='utf-8').write(badge(label, c, '111111' if lum(c) > .45 else 'FFFFFF', k))
+for f, label, c, k in TOOLS:
+    open(os.path.join(OUT, f + '.svg'), 'w', encoding='utf-8').write(badge(label, c, '111111' if lum(c) > .45 else 'FFFFFF', k))
 for f, label, k in LINKS:
     open(os.path.join(OUT, f + '.svg'), 'w', encoding='utf-8').write(badge(label, 'E0115F', 'FFFFFF', k, split='6a6f79'))
-print('wrote', len(TECH) + len(LINKS), 'badges')
+print('wrote', len(TECH) + len(TOOLS) + len(LINKS), 'badges')
