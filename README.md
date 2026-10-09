@@ -76,7 +76,7 @@ I build practical software, take stubborn binaries apart, and ship tooling that 
 
 - **[Wand-Enhancer](https://github.com/Glitxhhh/Wand-Enhancer)** — maintained community continuation of the WandEnhancer interoperability/UX tool, with a LAN remote web panel, custom script injection and reproducible builds from source.
 - **[YipYip-Recomp](https://github.com/Glitxhhh/YipYip-Recomp)** — static recompilation of *Avatar: The Last Airbender* (PS2) into native C++. Very early, heavily W.I.P.
-- **[TTGames Lego Mod Manager](https://github.com/Glitxhhh/TTGamesLegoModManager)** — install, enable and combine mods for TT Games LEGO titles across the Nu2, NXG and NTT engines.
+- **[TTGames Lego Mod Manager](https://github.com/Glitxhhh/TTGamesLegoModManagerDocs)** — install, enable and combine mods for TT Games LEGO titles across the Nu2, NXG and NTT engines.
 - **[Fortnite AFK XP Monitor](https://github.com/Glitxhhh/FortniteAFKXPMonitor)** — cross-platform .NET 10 + Avalonia utility for AFK XP sessions on Windows and Linux.
 - **[WidgetCord](https://github.com/Glitxhhh/WidgetCord)** — keeps a Discord profile widget auto-updated from a live data source, with a small web panel.
 
@@ -99,10 +99,7 @@ My workflow has shifted from doing everything by hand to **AI-assisted reverse e
 | --- | --- |
 | [**Wand-Enhancer**](https://github.com/Glitxhhh/Wand-Enhancer) | Advanced UX and interoperability extension for the Wand (WeMod) app. |
 | [**SRCWUnlocker**](https://github.com/Glitxhhh/SRCWUnlocker) | Lightweight DLL-based unlocker for Sonic Racing CrossWorlds. |
-| [**SmokeAPI**](https://github.com/Glitxhhh/SmokeAPI) | Legit DLC unlocker for Steamworks. |
-| [**XStoreUnlocker**](https://github.com/Glitxhhh/XStoreUnlocker) | DLC unlocker for Microsoft Store and Xbox PC games. |
 | [**DepotDumperGUI**](https://github.com/Glitxhhh/DepotDumperGUI) | Mass depot key dumper built on SteamKit2, with a GUI. |
-| [**discord-quest-completer**](https://github.com/Glitxhhh/discord-quest-completer) | Windows desktop app to complete Discord quests without installing the games. |
 | [**CachyAutoClicker**](https://github.com/Glitxhhh/CachyAutoClicker) | Native C++/Qt6 auto-clicker for Wayland using `uinput`. |
 | [**HytaleAvatarEditor**](https://github.com/Glitxhhh/HytaleAvatarEditor) | Edit Hytale avatar params while offline. |
 | [**p3rpc.hermitrewrittencheatsheetpatch**](https://github.com/Glitxhhh/p3rpc.hermitrewrittencheatsheetpatch) | Persona 3 Reload cheat sheet patch — [GameBanana](https://gamebanana.com/mods/616284). |
@@ -120,12 +117,20 @@ My workflow has shifted from doing everything by hand to **AI-assisted reverse e
 
 ## Pinned Projects
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=Wand-Enhancer&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117)](https://github.com/Glitxhhh/Wand-Enhancer)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=YipYip-Recomp&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117)](https://github.com/Glitxhhh/YipYip-Recomp)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=TTGamesLegoModManager&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117)](https://github.com/Glitxhhh/TTGamesLegoModManager)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=FortniteAFKXPMonitor&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117)](https://github.com/Glitxhhh/FortniteAFKXPMonitor)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=ghidra-mcp&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117)](https://github.com/Glitxhhh/ghidra-mcp)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=SmokeAPI&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117)](https://github.com/Glitxhhh/SmokeAPI)
+<table>
+  <tr>
+    <td width="50%"><a href="https://github.com/Glitxhhh/Wand-Enhancer"><img width="100%" alt="Wand-Enhancer" src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=Wand-Enhancer&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117"></a></td>
+    <td width="50%"><a href="https://github.com/Glitxhhh/YipYip-Recomp"><img width="100%" alt="YipYip-Recomp" src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=YipYip-Recomp&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/Glitxhhh/FortniteAFKXPMonitor"><img width="100%" alt="FortniteAFKXPMonitor" src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=FortniteAFKXPMonitor&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117"></a></td>
+    <td width="50%"><a href="https://github.com/Glitxhhh/ghidra-mcp"><img width="100%" alt="ghidra-mcp" src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=ghidra-mcp&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/Glitxhhh/CachyAutoClicker"><img width="100%" alt="CachyAutoClicker" src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=CachyAutoClicker&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117"></a></td>
+    <td width="50%"><a href="https://github.com/Glitxhhh/SRCWUnlocker"><img width="100%" alt="SRCWUnlocker" src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=SRCWUnlocker&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117"></a></td>
+  </tr>
+</table>
 
 ---
 
