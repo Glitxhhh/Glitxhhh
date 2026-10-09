@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://glitxh.tech"><img alt="GLITXH.TECH" src="./assets/badges/glitxh-tech.svg"></a>
-  <a href="https://discord.gg/FQ2ZYKgpgq"><img alt="Discord" src="./assets/badges/discord.svg"></a>
+  <a href="https://discord.gg/fYhkEFcC"><img alt="Discord" src="./assets/badges/discord.svg"></a>
   <a href="https://x.com/glitxhhh"><img alt="X" src="./assets/badges/x.svg"></a>
   <a href="https://www.youtube.com/@glitxhhh"><img alt="YouTube" src="./assets/badges/youtube.svg"></a>
   <a href="https://www.twitch.tv/glitxhwastaken"><img alt="Twitch" src="./assets/badges/twitch.svg"></a>
@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="https://discord.gg/FQ2ZYKgpgq"><img alt="Discord online" src="https://img.shields.io/discord/1435481508939960337?style=flat&logo=discord&logoColor=white&label=Discord&labelColor=2f3136&color=E0115F"></a>
+  <a href="https://discord.gg/fYhkEFcC"><img alt="Discord online" src="https://img.shields.io/discord/1435481508939960337?style=flat&logo=discord&logoColor=white&label=Discord&labelColor=2f3136&color=E0115F"></a>
   <img alt="Followers" src="https://img.shields.io/github/followers/Glitxhhh?style=flat&logo=github&labelColor=2f3136&color=E0115F">
   <img alt="Wand-Enhancer stars" src="https://img.shields.io/github/stars/Glitxhhh/Wand-Enhancer?style=flat&logo=github&labelColor=2f3136&color=E0115F">
   <img alt="Wand-Enhancer downloads" src="https://img.shields.io/github/downloads/Glitxhhh/Wand-Enhancer/total?style=flat&logo=github&labelColor=2f3136&color=E0115F">
