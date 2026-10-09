@@ -19,7 +19,9 @@
 ![Lua](https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=white&style=for-the-badge)
 ![GDScript](https://img.shields.io/badge/GDScript-478CBF?logo=godotengine&logoColor=white&style=for-the-badge)
 ![Ghidra](https://img.shields.io/badge/Ghidra-NSA-E0115F?style=for-the-badge)
+![IDA Pro](https://img.shields.io/badge/IDA%20Pro-Hex--Rays-1E5AA8?style=for-the-badge)
 ![Linux](https://img.shields.io/badge/CachyOS-Linux-1793D1?logo=archlinux&logoColor=white&style=for-the-badge)
+![Windows](https://img.shields.io/badge/Windows-0078D4?logo=windows&logoColor=white&style=for-the-badge)
 
 <p align="center">
   <a href="https://glitxh.tech">
