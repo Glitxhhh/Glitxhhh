@@ -64,7 +64,6 @@ I build practical software, take stubborn binaries apart, and ship tooling that 
 My workflow has shifted from doing everything by hand to **AI-assisted reverse engineering and development**:
 
 - **MCP-driven RE** — Ghidra, x64dbg and IDA Pro all wired up to LLM tooling through MCP servers ([ghidra-mcp](https://github.com/Glitxhhh/ghidra-mcp), [x64dbgMCP](https://github.com/Glitxhhh/x64dbgMCP), [IDAssistMCP](https://github.com/Glitxhhh/IDAssistMCP)), so analysis, renaming and batch operations happen at conversation speed.
-- **Claude Code in the loop** — agents handle the repetitive scaffolding, refactors and cross-file changes; I stay on architecture, verification and the parts that need real judgement.
 - **Linux-first desktop** — daily driving CachyOS, building native Qt6/C++ and Avalonia tools that work on Wayland instead of being Windows-only.
 - **Ship, then iterate** — small public repos from day one so progress is visible, even when there's no demo yet.
 
