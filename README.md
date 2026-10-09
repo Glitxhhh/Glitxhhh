@@ -64,7 +64,7 @@ I build practical software, take stubborn binaries apart, and ship tooling that 
 My workflow has shifted from doing everything by hand to **tool-driven reverse engineering and development**:
 
 - **MCP-driven RE** — Ghidra, x64dbg and IDA Pro all wired into one scriptable workflow through MCP servers ([ghidra-mcp](https://github.com/Glitxhhh/ghidra-mcp), [x64dbgMCP](https://github.com/Glitxhhh/x64dbgMCP), [IDAssistMCP](https://github.com/Glitxhhh/IDAssistMCP)), so analysis, renaming and batch operations happen in seconds instead of hours.
-- **Dual-OS setup** — CachyOS and Windows 11 side by side, tied together with Deskflow (KVM), VAIO audio and ClipCascade for clipboard sync, so I can move between both without thinking about it.
+- **Two machines, two OSes** — a CachyOS box and a Windows 11 PC (which technically dual-boots CachyOS too, though I rarely use it), tied together with Deskflow KVM, VAIO audio and ClipCascade for clipboard sync, so both feel like one desk.
 - **Cross-platform tools** — native Qt6/C++ and Avalonia apps that run on Windows and Linux, Wayland included, instead of being Windows-only.
 - **Ship, then iterate** — small public repos from day one so progress is visible, even when there's no demo yet.
 
@@ -181,10 +181,17 @@ The Ethereum address is the same wallet on Linea, Base, BNB Chain, Polygon, Opti
 
 ## GitHub Activity
 
-![](https://github-readme-stats.vercel.app/api?hide_border=true&show_icons=true&username=Glitxhhh&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117)
-![](https://github-readme-streak-stats.herokuapp.com/?hide_border=true&user=Glitxhhh&background=0d1117&ring=E0115F&fire=E0115F&currStreakLabel=E0115F)
+<p align="center">
+  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?hide_border=true&show_icons=true&username=Glitxhhh&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117">
+</p>
 
-![](https://github-profile-trophy.vercel.app/?column=7&no-frame=true&row=1&username=Glitxhhh&theme=onestar)
+<p align="center">
+  <img alt="GitHub streak" src="https://github-readme-streak-stats.herokuapp.com/?hide_border=true&user=Glitxhhh&background=0d1117&ring=E0115F&fire=E0115F&currStreakNum=E0115F&currStreakLabel=E0115F&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e">
+</p>
+
+<p align="center">
+  <img alt="GitHub trophies" src="https://github-profile-trophy.vercel.app/?column=7&no-frame=true&row=1&username=Glitxhhh&theme=onestar">
+</p>
 
 ---
 
