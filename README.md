@@ -39,7 +39,7 @@
 
 I build practical software, take stubborn binaries apart, and ship tooling that is meant to be used, not just demoed.
 
-**Based in the former Soviet Union.** More of me lives at **[glitxh.tech](https://glitxh.tech)**.
+**Based in British Columbia, Canada.** More of me lives at **[glitxh.tech](https://glitxh.tech)**.
 
 <p align="center">
   <img src="./assets/soviet_flag_animated.gif" alt="Soviet Union flag" width="320" />
@@ -75,11 +75,11 @@ My workflow has shifted from doing everything by hand to **tool-driven reverse e
 | Project | What it is |
 | --- | --- |
 | [**Wand-Enhancer**](https://github.com/Glitxhhh/Wand-Enhancer) | Advanced UX and interoperability extension for the Wand (WeMod) app. |
-| [**SRCWUnlocker**](https://github.com/Glitxhhh/SRCWUnlocker) | Lightweight DLL-based unlocker for Sonic Racing CrossWorlds. |
-| [**DepotDumperGUI**](https://github.com/Glitxhhh/DepotDumperGUI) | GUI-first fork of DepotDumper: mass depot key dumping built on SteamKit2, with a full desktop interface. |
+| [**SRCWUnlocker**](https://github.com/Glitxhhh/SRCWUnlocker) | Lightweight DLL-based mod for Sonic Racing CrossWorlds that unlocks in-game content. |
+| [**DepotDumperGUI**](https://github.com/Glitxhhh/DepotDumperGUI) | Desktop GUI fork of DepotDumper, built on SteamKit2, for working with Steam depot keys at scale. |
 | [**CachyAutoClicker**](https://github.com/Glitxhhh/CachyAutoClicker) | Native C++/Qt6 auto-clicker for Wayland using `uinput`. |
 | [**HytaleAvatarEditor**](https://github.com/Glitxhhh/HytaleAvatarEditor) | Edit Hytale avatar params while offline. |
-| [**p3rpc.hermitrewrittencheatsheetpatch**](https://github.com/Glitxhhh/p3rpc.hermitrewrittencheatsheetpatch) | Persona 3 Reload cheat sheet patch — [GameBanana](https://gamebanana.com/mods/616284). |
+| [**p3rpc.hermitrewrittencheatsheetpatch**](https://github.com/Glitxhhh/p3rpc.hermitrewrittencheatsheetpatch) | Persona 3 Reload patch for the community cheat sheet — [GameBanana](https://gamebanana.com/mods/616284). |
 | [**persona5proto**](https://persona5proto.github.io/) | Persona 5 prototype archive and website. |
 
 ---
