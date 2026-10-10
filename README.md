@@ -18,9 +18,10 @@
 <p align="center">
   <a href="https://discord.gg/FQ2ZYKgpgq"><img alt="Discord online" src="https://img.shields.io/discord/1435481508939960337?style=flat&logo=discord&logoColor=white&label=Discord&labelColor=2f3136&color=E0115F"></a>
   <img alt="Followers" src="https://img.shields.io/github/followers/Glitxhhh?style=flat&logo=github&labelColor=2f3136&color=E0115F">
-  <img alt="Wand-Enhancer stars" src="https://img.shields.io/github/stars/Glitxhhh/Wand-Enhancer?style=flat&logo=github&labelColor=2f3136&color=E0115F">
-  <img alt="Wand-Enhancer downloads" src="https://img.shields.io/github/downloads/Glitxhhh/Wand-Enhancer/total?style=flat&logo=github&labelColor=2f3136&color=E0115F">
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/Glitxhhh/Wand-Enhancer?style=flat&logo=github&labelColor=2f3136&color=E0115F">
+  <img alt="WandMagica stars" src="https://img.shields.io/github/stars/Glitxhhh/WandMagica?style=flat&logo=github&labelColor=2f3136&color=E0115F">
+  <img alt="WandMagica forks" src="https://img.shields.io/github/forks/Glitxhhh/WandMagica?style=flat&logo=github&labelColor=2f3136&color=E0115F">
+  <img alt="WandMagica downloads" src="https://img.shields.io/github/downloads/Glitxhhh/WandMagica/total?style=flat&logo=github&labelColor=2f3136&color=E0115F">
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/Glitxhhh/WandMagica?style=flat&logo=github&labelColor=2f3136&color=E0115F">
 </p>
 
 <p align="center">
@@ -51,7 +52,7 @@ I build practical software, take stubborn binaries apart, and ship tooling that 
 
 <img src="./assets/now-building.svg" alt="Now Building" width="100%" />
 
-- **[Wand-Enhancer](https://github.com/Glitxhhh/Wand-Enhancer)** — maintained community continuation of the WandEnhancer interoperability/UX tool, with a LAN remote web panel, custom script injection and reproducible builds from source.
+- **[WandMagica](https://github.com/Glitxhhh/WandMagica)** — maintained community continuation of the WandEnhancer interoperability/UX tool, with a LAN remote web panel, custom script injection and reproducible builds from source.
 - **[YipYip-Recomp](https://github.com/Glitxhhh/YipYip-Recomp)** — static recompilation of *Avatar: The Last Airbender* (PS2) into native C++. Very early, heavily W.I.P.
 - **[TTGames Lego Mod Manager](https://github.com/Glitxhhh/TTGamesLegoModManagerDocs)** — install, enable and combine mods for TT Games LEGO titles across the Nu2, NXG and NTT engines.
 - **[Fortnite AFK XP Monitor](https://github.com/Glitxhhh/FortniteAFKXPMonitor)** — cross-platform .NET 10 + Avalonia utility for AFK XP sessions on Windows and Linux.
@@ -74,7 +75,7 @@ My workflow has shifted from doing everything by hand to **tool-driven reverse e
 
 | Project | What it is |
 | --- | --- |
-| [**Wand-Enhancer**](https://github.com/Glitxhhh/Wand-Enhancer) | Advanced UX and interoperability extension for the Wand (WeMod) app. |
+| [**WandMagica**](https://github.com/Glitxhhh/WandMagica) | Advanced UX and interoperability extension for the Wand (WeMod) app. |
 | [**SRCWUnlocker**](https://github.com/Glitxhhh/SRCWUnlocker) | Lightweight DLL-based mod for Sonic Racing CrossWorlds that unlocks in-game content. |
 | [**DepotDumperGUI**](https://github.com/Glitxhhh/DepotDumperGUI) | Desktop GUI fork of DepotDumper, built on SteamKit2, for working with Steam depot keys at scale. |
 | [**CachyAutoClicker**](https://github.com/Glitxhhh/CachyAutoClicker) | Native C++/Qt6 auto-clicker for Wayland using `uinput`. |
@@ -96,7 +97,7 @@ My workflow has shifted from doing everything by hand to **tool-driven reverse e
 
 <table>
   <tr>
-    <td width="50%"><a href="https://github.com/Glitxhhh/Wand-Enhancer"><img width="100%" alt="Wand-Enhancer" src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=Wand-Enhancer&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117"></a></td>
+    <td width="50%"><a href="https://github.com/Glitxhhh/WandMagica"><img width="100%" alt="WandMagica" src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=WandMagica&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117"></a></td>
     <td width="50%"><a href="https://github.com/Glitxhhh/YipYip-Recomp"><img width="100%" alt="YipYip-Recomp" src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=YipYip-Recomp&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117"></a></td>
   </tr>
   <tr>
