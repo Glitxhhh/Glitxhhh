@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://glitxh.tech"><img alt="GLITXH.TECH" src="./assets/badges/glitxh-tech.svg"></a>
-  <a href="https://discord.gg/FQ2ZYKgpgq"><img alt="Discord" src="./assets/badges/discord.svg"></a>
+  <a href="https://discord.gg/kt7BwTjfzv"><img alt="Discord" src="./assets/badges/discord.svg"></a>
   <a href="https://x.com/glitxhhh"><img alt="X" src="./assets/badges/x.svg"></a>
   <a href="https://www.youtube.com/@glitxhhh"><img alt="YouTube" src="./assets/badges/youtube.svg"></a>
   <a href="https://www.twitch.tv/glitxhwastaken"><img alt="Twitch" src="./assets/badges/twitch.svg"></a>
