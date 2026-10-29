@@ -180,15 +180,15 @@ The Ethereum address is the same wallet on Linea, Base, BNB Chain, Polygon, Opti
 ## GitHub Activity
 
 <p align="center">
-  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?hide_border=true&show_icons=true&username=Glitxhhh&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117">
+  <img alt="GitHub stats" src="./assets/activity/stats.svg">
 </p>
 
 <p align="center">
-  <img alt="GitHub streak" src="https://github-readme-streak-stats.herokuapp.com/?hide_border=true&user=Glitxhhh&background=0d1117&ring=E0115F&fire=E0115F&currStreakNum=E0115F&currStreakLabel=E0115F&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e">
+  <img alt="GitHub streak" src="./assets/activity/streak.svg">
 </p>
 
 <p align="center">
-  <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Glitxhhh&layout=compact&hide_border=true&title_color=E0115F&text_color=c9d1d9&bg_color=0d1117">
+  <img alt="Top languages" src="./assets/activity/languages.svg">
 </p>
 
 ---

@@ -3,11 +3,12 @@
 
 Needs the GitHub CLI (`gh`) logged in. Run from anywhere: python scripts/cards/gen.py
 """
-import html, json, os, subprocess
+import datetime, html, json, os, subprocess
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ASSETS = os.path.join(HERE, '..', '..', 'assets')
 CARDS = os.path.join(ASSETS, 'cards')
+ACTIVITY = os.path.join(ASSETS, 'activity')
 BADGES = os.path.join(ASSETS, 'badges')
 OWNER = 'Glitxhhh'
 
@@ -78,6 +79,130 @@ def stat(label, value):
             f'<text x="{lw + 12:.0f}" y="18.4" textLength="{len(value) * 9.6 - 0.8:.1f}" lengthAdjust="spacingAndGlyphs">{esc(value)}</text></g></svg>')
 
 
+def fmt_date(d):
+    return f"{d.strftime('%b')} {d.day}, {d.year}"
+
+
+def fetch_activity():
+    """Return profile counts + contribution days from GraphQL, or None if a query fails."""
+    head = json.loads(gh('api', 'graphql', '-f', 'query=query{user(login:"%s"){createdAt followers{totalCount} '
+                         'pullRequests{totalCount} issues{totalCount} '
+                         'repositoriesContributedTo(first:1,contributionTypes:[COMMIT,ISSUE,PULL_REQUEST,REPOSITORY]){totalCount} '
+                         'repositories(ownerAffiliations:OWNER,isFork:false,privacy:PUBLIC,first:100){nodes{languages(first:12,orderBy:{field:SIZE,direction:DESC}){edges{size node{name color}}}}}}}' % OWNER) or '{}')
+    user = (head.get('data') or {}).get('user')
+    if not user:
+        return None
+    first_year = int(user['createdAt'][:4])
+    this_year = datetime.date.today().year
+    parts = ' '.join(f'y{y}:contributionsCollection(from:"{y}-01-01T00:00:00Z",to:"{y}-12-31T23:59:59Z")'
+                     '{contributionCalendar{totalContributions weeks{contributionDays{date contributionCount}}}}'
+                     for y in range(first_year, this_year + 1))
+    cal = json.loads(gh('api', 'graphql', '-f', 'query=query{user(login:"%s"){%s}}' % (OWNER, parts)) or '{}')
+    cal = (cal.get('data') or {}).get('user')
+    if not cal:
+        return None
+    days = {}
+    for year in cal.values():
+        for week in year['contributionCalendar']['weeks']:
+            for d in week['contributionDays']:
+                days[datetime.date.fromisoformat(d['date'])] = d['contributionCount']
+    return {'user': user, 'days': days}
+
+
+def streaks(days):
+    today = datetime.date.today()
+    best, best_range, run, start = 0, None, 0, None
+    for d in sorted(d for d in days if d <= today):
+        if days[d] > 0:
+            if run == 0:
+                start = d
+            run += 1
+            if run > best:
+                best, best_range = run, (start, d)
+        else:
+            run = 0
+    end = today if days.get(today, 0) > 0 else today - datetime.timedelta(days=1)
+    cur, d = 0, end
+    while days.get(d, 0) > 0:
+        cur += 1
+        d -= datetime.timedelta(days=1)
+    cur_range = (end - datetime.timedelta(days=cur - 1), end) if cur else None
+    return cur, cur_range, best, best_range
+
+
+def frame(w, h, title, body, label):
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{esc(label)}" font-family="{FONT}">'
+            f'<title>{esc(label)}</title><rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="10" fill="{BG}" stroke="{BORDER}"/>'
+            + (f'<text x="25" y="36" fill="{PINK}" font-size="18" font-weight="700">{esc(title)}</text>' if title else '')
+            + body + '</svg>')
+
+
+def stats_card(act, total_stars):
+    u, days = act['user'], act['days']
+    rows = [('Total Stars Earned', total_stars), ('Total Contributions', sum(days.values())),
+            ('Pull Requests', u['pullRequests']['totalCount']), ('Issues', u['issues']['totalCount']),
+            ('Repos Contributed To', u['repositoriesContributedTo']['totalCount']), ('Followers', u['followers']['totalCount'])]
+    body = ''.join(f'<text x="25" y="{68 + i * 24}" fill="{TEXT}" font-size="14">{esc(label)}</text>'
+                   f'<text x="460" y="{68 + i * 24}" fill="#ffffff" font-size="14" font-weight="700" text-anchor="end">{value:,}</text>'
+                   for i, (label, value) in enumerate(rows))
+    return frame(495, 215, f"{OWNER}'s GitHub Stats", body, 'GitHub stats')
+
+
+def streak_card(act):
+    days = act['days']
+    today = datetime.date.today()
+    total = sum(days.values())
+    first = min((d for d, c in days.items() if c), default=today)
+    cur, cur_range, best, best_range = streaks(days)
+
+    def col(cx, big, label, sub, ring=False):
+        out = ''
+        if ring:
+            out += (f'<circle cx="{cx}" cy="82" r="38" fill="none" stroke="#21262d" stroke-width="6"/>'
+                    f'<circle cx="{cx}" cy="82" r="38" fill="none" stroke="{PINK}" stroke-width="6" stroke-linecap="round" stroke-dasharray="190 239" transform="rotate(-90 {cx} 82)"/>')
+        out += (f'<text x="{cx}" y="{92 if ring else 90}" fill="#ffffff" font-size="{30 if ring else 28}" font-weight="700" text-anchor="middle">{big}</text>'
+                f'<text x="{cx}" y="148" fill="{PINK if ring else TEXT}" font-size="14" font-weight="{700 if ring else 400}" text-anchor="middle">{esc(label)}</text>'
+                f'<text x="{cx}" y="168" fill="{MUTED}" font-size="11" text-anchor="middle">{esc(sub)}</text>')
+        return out
+
+    rng = lambda r: f'{fmt_date(r[0])} - {fmt_date(r[1])}' if r else 'No streak'
+    body = (col(85, f'{total:,}', 'Total Contributions', f'{fmt_date(first)} - Present')
+            + col(247, cur, 'Current Streak', rng(cur_range), ring=True)
+            + col(410, best, 'Longest Streak', rng(best_range)))
+    return frame(495, 195, None, body, 'GitHub streak')
+
+
+def langs_card(act):
+    sizes, colors = {}, {}
+    for repo in act['user']['repositories']['nodes']:
+        repo_total = sum(e['size'] for e in repo['languages']['edges']) or 1
+        for e in repo['languages']['edges']:
+            sizes[e['node']['name']] = sizes.get(e['node']['name'], 0) + e['size'] / repo_total
+            colors[e['node']['name']] = e['node']['color'] or MUTED
+    total = sum(sizes.values()) or 1
+    top = sorted(sizes.items(), key=lambda kv: -kv[1])[:6]
+    body = ''
+    for i, (name, size) in enumerate(top):
+        y, pct = 60 + i * 30, size / total * 100
+        body += (f'<text x="25" y="{y + 10}" fill="{TEXT}" font-size="13">{esc(name)}</text>'
+                 f'<rect x="140" y="{y}" width="260" height="10" rx="5" fill="#21262d"/>'
+                 f'<rect x="140" y="{y}" width="{max(260 * pct / 100, 4):.1f}" height="10" rx="5" fill="{colors[name]}"/>'
+                 f'<text x="470" y="{y + 10}" fill="{MUTED}" font-size="13" text-anchor="end">{pct:.1f}%</text>')
+    return frame(495, 60 + len(top) * 30 + 6, 'Top Languages (by repo)', body, 'Top languages')
+
+
+def activity(total_stars):
+    act = fetch_activity()
+    if not act:
+        print('activity: GraphQL failed, keeping existing cards')
+        return
+    os.makedirs(ACTIVITY, exist_ok=True)
+    for name, svg in (('stats', stats_card(act, total_stars)), ('streak', streak_card(act)), ('languages', langs_card(act))):
+        with open(os.path.join(ACTIVITY, name + '.svg'), 'w', encoding='utf-8') as f:
+            f.write(svg)
+    print('activity cards written')
+
+
 def main():
     os.makedirs(CARDS, exist_ok=True)
     for slug, desc in PINNED:
@@ -101,6 +226,7 @@ def main():
         with open(os.path.join(BADGES, f'stat-{key}.svg'), 'w', encoding='utf-8') as f:
             f.write(stat(key, value))
     print('totals', totals)
+    activity(totals['stars'])
 
 
 if __name__ == '__main__':
