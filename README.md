@@ -18,10 +18,10 @@
 <p align="center">
   <a href="https://discord.gg/FQ2ZYKgpgq"><img alt="Discord online" src="https://img.shields.io/discord/1435481508939960337?style=flat&logo=discord&logoColor=white&label=Discord&labelColor=2f3136&color=E0115F"></a>
   <img alt="Followers" src="https://img.shields.io/github/followers/Glitxhhh?style=flat&logo=github&labelColor=2f3136&color=E0115F">
-  <img alt="WandMagica stars" src="https://img.shields.io/github/stars/Glitxhhh/WandMagica?style=flat&logo=github&labelColor=2f3136&color=E0115F">
-  <img alt="WandMagica forks" src="https://img.shields.io/github/forks/Glitxhhh/WandMagica?style=flat&logo=github&labelColor=2f3136&color=E0115F">
-  <img alt="WandMagica downloads" src="https://img.shields.io/github/downloads/Glitxhhh/WandMagica/total?style=flat&logo=github&labelColor=2f3136&color=E0115F">
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/Glitxhhh/WandMagica?style=flat&logo=github&labelColor=2f3136&color=E0115F">
+  <img alt="Public repos" src="./assets/badges/stat-repos.svg">
+  <img alt="Total stars" src="./assets/badges/stat-stars.svg">
+  <img alt="Total forks" src="./assets/badges/stat-forks.svg">
+  <img alt="Total downloads" src="./assets/badges/stat-downloads.svg">
 </p>
 
 <p align="center">
@@ -94,16 +94,16 @@ My workflow has shifted from doing everything by hand to **tool-driven reverse e
 
 <table>
   <tr>
-    <td width="50%"><a href="https://github.com/oogiefied/HubcapUI"><img width="100%" alt="HubcapUI" src="https://github-readme-stats.vercel.app/api/pin/?username=oogiefied&repo=HubcapUI&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117"></a></td>
-    <td width="50%"><a href="https://github.com/Glitxhhh/YipYip-Recomp"><img width="100%" alt="YipYip-Recomp" src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=YipYip-Recomp&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117"></a></td>
+    <td width="50%"><a href="https://github.com/oogiefied/HubcapUI"><img width="100%" alt="HubcapUI" src="./assets/cards/HubcapUI.svg"></a></td>
+    <td width="50%"><a href="https://github.com/Glitxhhh/YipYip-Recomp"><img width="100%" alt="YipYip-Recomp" src="./assets/cards/YipYip-Recomp.svg"></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/Glitxhhh/FortniteAFKXPMonitor"><img width="100%" alt="FortniteAFKXPMonitor" src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=FortniteAFKXPMonitor&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117"></a></td>
-    <td width="50%"><a href="https://github.com/Glitxhhh/XenobladeChroniclesRecompiled"><img width="100%" alt="XenobladeChroniclesRecompiled" src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=XenobladeChroniclesRecompiled&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117"></a></td>
+    <td width="50%"><a href="https://github.com/Glitxhhh/FortniteAFKXPMonitor"><img width="100%" alt="FortniteAFKXPMonitor" src="./assets/cards/FortniteAFKXPMonitor.svg"></a></td>
+    <td width="50%"><a href="https://github.com/Glitxhhh/XenobladeChroniclesRecompiled"><img width="100%" alt="XenobladeChroniclesRecompiled" src="./assets/cards/XenobladeChroniclesRecompiled.svg"></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/Glitxhhh/CachyAutoClicker"><img width="100%" alt="CachyAutoClicker" src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=CachyAutoClicker&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117"></a></td>
-    <td width="50%"><a href="https://github.com/Glitxhhh/SRCWUnlocker"><img width="100%" alt="SRCWUnlocker" src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=SRCWUnlocker&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117"></a></td>
+    <td width="50%"><a href="https://github.com/Glitxhhh/CachyAutoClicker"><img width="100%" alt="CachyAutoClicker" src="./assets/cards/CachyAutoClicker.svg"></a></td>
+    <td width="50%"><a href="https://github.com/Glitxhhh/SRCWUnlocker"><img width="100%" alt="SRCWUnlocker" src="./assets/cards/SRCWUnlocker.svg"></a></td>
   </tr>
 </table>
 
