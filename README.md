@@ -73,7 +73,6 @@ My workflow has shifted from doing everything by hand to **tool-driven reverse e
 
 | Project | What it is |
 | --- | --- |
-| [**WandMagica**](https://github.com/Glitxhhh/WandMagica) | Advanced UX and interoperability extension for the Wand (WeMod) app. |
 | [**SRCWUnlocker**](https://github.com/Glitxhhh/SRCWUnlocker) | Lightweight DLL-based mod for Sonic Racing CrossWorlds that unlocks in-game content. |
 | [**DepotDumperGUI**](https://github.com/Glitxhhh/DepotDumperGUI) | Desktop GUI fork of DepotDumper, built on SteamKit2, for working with Steam depot keys at scale. |
 | [**CachyAutoClicker**](https://github.com/Glitxhhh/CachyAutoClicker) | Native C++/Qt6 auto-clicker for Wayland using `uinput`. |
