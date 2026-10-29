@@ -25,16 +25,16 @@
   <rect x="48" y="86" width="64" height="4" rx="2" fill="#E0115F"/>
 
   <rect x="48" y="118" width="6" height="42" rx="3" fill="#E0115F"/>
-  <text x="72" y="136" fill="#ffffff" class="n">Wand-Enhancer</text>
-  <text x="72" y="158" fill="#9aa4b8" class="d">Community continuation · remote panel · custom scripts</text>
+  <text x="72" y="136" fill="#ffffff" class="n">XenobladeChroniclesRecompiled</text>
+  <text x="72" y="158" fill="#9aa4b8" class="d">Windows port of the Xenoblade games via static recompilation</text>
 
   <rect x="48" y="184" width="6" height="42" rx="3" fill="#E0115F"/>
-  <text x="72" y="202" fill="#ffffff" class="n">YipYip-Recomp</text>
-  <text x="72" y="224" fill="#9aa4b8" class="d">Avatar: The Last Airbender (PS2), statically recompiled to C++</text>
+  <text x="72" y="202" fill="#ffffff" class="n">HubcapUI</text>
+  <text x="72" y="224" fill="#9aa4b8" class="d">Hubcap controls directly inside Steam · contributing upstream</text>
 
   <rect x="48" y="250" width="6" height="42" rx="3" fill="#E0115F"/>
-  <text x="72" y="268" fill="#ffffff" class="n">TTGames Lego Mod Manager</text>
-  <text x="72" y="290" fill="#9aa4b8" class="d">Mods for Nu2 / NXG / NTT engine LEGO games</text>
+  <text x="72" y="268" fill="#ffffff" class="n">HubcapUI-Plugins</text>
+  <text x="72" y="290" fill="#9aa4b8" class="d">RenoDX and OptiScaler plugins for HubcapUI</text>
 
   <g opacity="0.9">
     <rect x="760" y="36" width="150" height="6" rx="3" fill="#E0115F" opacity="0.25">

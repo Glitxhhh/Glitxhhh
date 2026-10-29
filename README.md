@@ -52,11 +52,9 @@ I build practical software, take stubborn binaries apart, and ship tooling that 
 
 <img src="./assets/now-building.svg" alt="Now Building" width="100%" />
 
-- **[WandMagica](https://github.com/Glitxhhh/WandMagica)** — maintained community continuation of the WandEnhancer interoperability/UX tool, with a LAN remote web panel, custom script injection and reproducible builds from source.
-- **[YipYip-Recomp](https://github.com/Glitxhhh/YipYip-Recomp)** — static recompilation of *Avatar: The Last Airbender* (PS2) into native C++. Very early, heavily W.I.P.
-- **[TTGames Lego Mod Manager](https://github.com/Glitxhhh/TTGamesLegoModManagerDocs)** — install, enable and combine mods for TT Games LEGO titles across the Nu2, NXG and NTT engines.
-- **[Fortnite AFK XP Monitor](https://github.com/Glitxhhh/FortniteAFKXPMonitor)** — cross-platform .NET 10 + Avalonia utility for AFK XP sessions on Windows and Linux.
-- **[WidgetCord](https://github.com/Glitxhhh/WidgetCord)** — keeps a Discord profile widget auto-updated from a live data source, with a small web panel.
+- **[XenobladeChroniclesRecompiled](https://github.com/Glitxhhh/XenobladeChroniclesRecompiled)** — a Windows port of the Xenoblade Chronicles games built on static recompilation, working from user-supplied game files. Early and in progress.
+- **[HubcapUI](https://github.com/oogiefied/HubcapUI)** — Hubcap controls directly inside Steam. Contributing to oogie's project.
+- **[HubcapUI-Plugins](https://github.com/YaBoi69er/HubcapUI-Plugins)** — independent RenoDX and OptiScaler plugins for HubcapUI. Contributing via pull requests.
 
 ---
 
@@ -97,12 +95,12 @@ My workflow has shifted from doing everything by hand to **tool-driven reverse e
 
 <table>
   <tr>
-    <td width="50%"><a href="https://github.com/Glitxhhh/WandMagica"><img width="100%" alt="WandMagica" src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=WandMagica&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117"></a></td>
+    <td width="50%"><a href="https://github.com/oogiefied/HubcapUI"><img width="100%" alt="HubcapUI" src="https://github-readme-stats.vercel.app/api/pin/?username=oogiefied&repo=HubcapUI&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117"></a></td>
     <td width="50%"><a href="https://github.com/Glitxhhh/YipYip-Recomp"><img width="100%" alt="YipYip-Recomp" src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=YipYip-Recomp&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117"></a></td>
   </tr>
   <tr>
     <td width="50%"><a href="https://github.com/Glitxhhh/FortniteAFKXPMonitor"><img width="100%" alt="FortniteAFKXPMonitor" src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=FortniteAFKXPMonitor&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117"></a></td>
-    <td width="50%"><a href="https://github.com/Glitxhhh/ghidra-mcp"><img width="100%" alt="ghidra-mcp" src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=ghidra-mcp&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117"></a></td>
+    <td width="50%"><a href="https://github.com/Glitxhhh/XenobladeChroniclesRecompiled"><img width="100%" alt="XenobladeChroniclesRecompiled" src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=XenobladeChroniclesRecompiled&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117"></a></td>
   </tr>
   <tr>
     <td width="50%"><a href="https://github.com/Glitxhhh/CachyAutoClicker"><img width="100%" alt="CachyAutoClicker" src="https://github-readme-stats.vercel.app/api/pin/?username=Glitxhhh&repo=CachyAutoClicker&hide_border=true&title_color=E0115F&icon_color=E0115F&text_color=c9d1d9&bg_color=0d1117"></a></td>
