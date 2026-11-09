@@ -29,6 +29,7 @@
 </p>
 
 ![](https://komarev.com/ghpvc/?color=brightgreen&style=flat-square&username=Glitxhhh)
+[![Update profile cards](https://github.com/Glitxhhh/Glitxhhh/actions/workflows/update-cards.yml/badge.svg)](https://github.com/Glitxhhh/Glitxhhh/actions/workflows/update-cards.yml)
 
 </div>
 
